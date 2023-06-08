@@ -2,7 +2,7 @@
   "name": "rich-mutil-page",
   "displayName": "rich-mutil-page",
   "publisher": "rich",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nanjingcaiyong/rich-mpa.git"
@@ -21,7 +21,7 @@
     "commands": [
       {
         "command": "rich.openRoot",
-        "title": "Create Page"
+        "title": "创建模块"
       }
     ],
     "menus": {
