@@ -21,7 +21,8 @@
     "commands": [
       {
         "command": "rich.openRoot",
-        "title": "创建模块"
+        "title": "创建模块",
+        "category": "rich"
       }
     ],
     "menus": {
