@@ -2,7 +2,7 @@
   "name": "rich-mutil-page",
   "displayName": "rich-mutil-page",
   "publisher": "rich",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nanjingcaiyong/rich-mpa.git"
@@ -12,9 +12,6 @@
   },
   "categories": [
     "Other"
-  ],
-  "activationEvents": [
-    "onCommand:rich.openRoot"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -28,9 +25,9 @@
     "menus": {
       "explorer/context": [
         {
+          "when": "explorerResourceIsFolder",
           "command": "rich.openRoot",
-          "group": "navigation@10",
-          "when": "explorerResourceIsFolder"
+          "group": "navigation@10"
         }
       ]
     }
